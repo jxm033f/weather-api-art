@@ -4,6 +4,8 @@ import neopixel
 import requests
 import time
 
+time.sleep(30)
+
 #api and location information
 api_key = "490a5a33da6ecfbad4c3dc91138d9a12"
 lat = 40.712776
