@@ -20,10 +20,14 @@ Neopixel/API Portion - The project was adapted from https://learn.adafruit.com/n
 Processing Portion - I started off with a processing example called ball collision. There are 4 ball objects that appear in random sizes and go at different velocities. The colors are related to the different temperature that weathers can represent from red to blue or hot to cold. If balls collide it changes based on which red value is the greatest between them.
 
 In order to run program on boot:
-Clone directory to Desktop: https://github.com/jxm033f/weather-api-art.git
-Open rc.local: sudo nano /etc/rc.local
-Add these two lines before exit 0:
-sudo python3 /home/pi/Desktop/weather-api-art/weatherAPI.py &
-processing-java --sketch='/home/pi/Desktop/weather-api-art/weatherCollision' --run &
+Option 1:
+- Clone directory to Desktop: https://github.com/jxm033f/weather-api-art.git
+- Open rc.local: sudo nano /etc/rc.local
+- Add these two lines before exit 0:
+1. sudo python3 /home/pi/Desktop/weather-api-art/weatherAPI.py &
+2. processing-java --sketch='/home/pi/Desktop/weather-api-art/weatherCollision' --run &
+
+Option 2:
+Copy rc.local to /etc/rc.local
 
 Youtube Link: https://youtu.be/f01RQblXVcM
