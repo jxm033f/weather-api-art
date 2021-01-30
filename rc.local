@@ -18,6 +18,5 @@ if [ "$_IP" ]; then
 fi
 
 sudo python3 /home/pi/Desktop/weather-api-art/weatherAPI.py &
-processing-java --sketch='/home/pi/Desktop/weather-api-art/weatherCollision' --run &
 
 exit 0
