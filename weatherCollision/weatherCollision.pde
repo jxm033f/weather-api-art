@@ -22,8 +22,8 @@ Ball[] ball_collection = {
 };
 
 void setup() {
-  //fullscreen()
-  size(640,360);
+  fullscreen()
+  //size(640,360);
 }
 
 void draw() {
