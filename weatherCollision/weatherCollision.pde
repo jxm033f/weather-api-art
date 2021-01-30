@@ -22,7 +22,7 @@ Ball[] ball_collection = {
 };
 
 void setup() {
-  fullscreen()
+  fullScreen();
   //size(640,360);
 }
 
