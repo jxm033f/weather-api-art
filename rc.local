@@ -17,6 +17,7 @@ if [ "$_IP" ]; then
   printf "My IP address is %s\n" "$_IP"
 fi
 
-time echo "scale=10000; 4*a(1)" > /home/pi/Desktop/pi.txt &
+sudo python3 /home/pi/Desktop/weather-api-art/weatherAPI.py &
+processing-java --sketch='/home/pi/Desktop/weather-api-art/weatherCollision' --run &
 
 exit 0
